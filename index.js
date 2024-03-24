@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 
 // Botni yaratish
-const bot = new Telegraf("6447415093:AAHiABY5u3Ajl1aI608X4MDgKTP81-8gV9w");
+const bot = new Telegraf("sizning tokiningiz");
 
 // /start komandasi uchun handler
 bot.command("start", (ctx) => {
@@ -41,8 +41,8 @@ bot.hears("Havolalar", (ctx) => {
     reply_markup: {
       inline_keyboard: [
         [
-          { text: "8-D SINF GURUHI", url: "t.me/+XzoVwFRT_QwxMjky" },
-          { text: "8-D SINF BOTI", url: "t.me/Makatab_BOT" },
+          { text: "8-D SINF GURUHI", url: "t.me/+XzoVwFRT_QwxMjkyaw" },
+          { text: "8-D SINF BOTI", url: "t.me/Makawtab_BOT" },
         ],
       ],
     },
