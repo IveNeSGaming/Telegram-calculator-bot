@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 
 // Botni yaratish
-const bot = new Telegraf("");
+const bot = new Telegraf("token1");
 
 // /start komandasi uchun handler
 bot.command("start", (ctx) => {
