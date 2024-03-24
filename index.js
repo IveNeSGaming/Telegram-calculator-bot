@@ -1,7 +1,3 @@
-const express = require("express");
-
-const app = express();
-
 const { Telegraf } = require("telegraf");
 
 // Botni yaratish
@@ -90,11 +86,3 @@ bot.on("text", (ctx) => {
 
 // Botni ishga tushirish
 bot.launch();
-
-app.get("/", (req, res) => {
-  res.send("<head><title>Calculator BOT</title></head><body>Calculator BOT</body>");
-});
-
-app.listen(3000, () => {
-  console.log("Server started");
-});
