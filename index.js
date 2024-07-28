@@ -41,8 +41,8 @@ bot.hears("Havolalar", (ctx) => {
     reply_markup: {
       inline_keyboard: [
         [
-          { text: "8-D SINF GURUHI", url: "t.me/+XzoVwFRT_QwxMjkyaw" },
-          { text: "8-D SINF BOTI", url: "t.me/Makawtab_BOT" },
+          { text: "nom", url: "lik" },
+          { text: "nom", url: "link" },
         ],
       ],
     },
